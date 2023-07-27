@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	text-rendering: optimizelegibility;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+}
+li, ul, ol {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-style:normal;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	line-height:23px;
+	margin:0;
+	padding:0;		
+}
+
+a, a img {
+	text-decoration: none !important;
+	border: 0;
+	outline: none !important;
+}
+
+a {
+	color:#B59E5C;
+}
+
+a:hover {
+	color:#222;
+}
+
+
