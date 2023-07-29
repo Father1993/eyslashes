@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -22,16 +23,234 @@
             <div class="row">
                 <div class="row">
                     <div class="col-12">
-                        <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Заказать</a>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Екатерина Васкевич</a>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Главная</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Примеры работ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Обо мне</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Цены</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Контакты</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-city" href="#map">
+                                            <p>На карте</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="tel:+7999999999">
+                                            <p>Позванить</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
+
+    <section class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            <a href="#"><button type="button" class="btn btn-outline-secondary btn-slider">Оставить
+                                    заявку</button>
+                            </a>
+                        </h5>
+                        <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            <a href="#"><button type="button" class="btn btn-outline-secondary btn-slider">Оставить
+                                    заявку</button>
+                            </a>
+                        </h5>
+                        <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            <a href="#"><button type="button" class="btn btn-outline-secondary btn-slider">Оставить
+                                    заявку</button>
+                            </a>
+                        </h5>
+                        <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+    </section>
+    <section class="container">
+        <br>
+        <h2>Почему я:</h2>
+        <br>
+
+        <div class="text-center">
+            <div class="row justify-content-center">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Небольшая цена</h5>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии
+                            карточки и составлять основную часть содержимого карты.</p>
+                        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                    </div>
+
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Большой опыт</h5>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии
+                            карточки и составлять основную часть содержимого карты.</p>
+                        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Гарантия на услуги</h5>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии
+                            карточки и составлять основную часть содержимого карты.</p>
+                        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Хорошие отзывы</h5>
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии
+                            карточки и составлять основную часть содержимого карты.</p>
+                        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services container">
+        <br>
+        <h2>Услуги</h2>
+        <br>
+        <div>
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        Одна из трех колонок
+                    </div>
+                    <div class="col">
+                        Одна из трех колонок
+                    </div>
+                    <div class="col">
+                        Одна из трех колонок
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col">
+                        Одна из трех колонок
+                    </div>
+                    <div class="col">
+                        Одна из трех колонок
+                    </div>
+                    <div class="col">
+                        Одна из трех колонок
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="reviews container">
+        <br>
+        <h2>На карте</h2>
+        <br>
+        <div class="row">
+            <div id="map" class="col-md-8 mx-auto">
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/76/khabarovsk/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Хабаровск</a><a
+                        href="https://yandex.ru/maps/76/khabarovsk/house/krasnorechenskaya_ulitsa_50/ZUoDaAZgSE0AWkJua2JyeHRjYAA=/?indoorLevel=1&ll=135.101876%2C48.398048&utm_medium=mapframe&utm_source=maps&z=17.13"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Краснореченская улица, 50 —
+                        Яндекс Карты</a><iframe
+                        src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=135.101876%2C48.398048&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjEyOTAzMxJP0KDQvtGB0YHQuNGPLCDQpdCw0LHQsNGA0L7QstGB0LosINCa0YDQsNGB0L3QvtGA0LXRh9C10L3RgdC60LDRjyDRg9C70LjRhtCwLCA1MCIKDRQaB0MVmpdBQg%2C%2C&z=17.13"
+                        width="900" height="400" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer id="footer">
-
+        <div class="container text-center">
+            <a class="btn btn-block btn-social btn-instagram">
+                <span class="fa fa-instagram"></span> Instagram
+            </a>
+            <a class="btn btn-block btn-social btn-vk">
+                <span class="fa fa-vk"></span> VK
+            </a>
+            <a class="btn btn-block btn-social btn-whatsapp">
+                <span class="fa fa-whatsapp"></span> WhatsApp
+            </a>
+            <a class="btn btn-block btn-social btn-telegram">
+                <span class="fa fa-telegram"></span> Telegram
+            </a>
+            <div class="container">
+                <div class="footer-copyright text-center py-3">© 2023 Copyright:
+                    <a href="/"> VaskevichE.ru</a>
+                </div>
+            </div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
