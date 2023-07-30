@@ -19,53 +19,83 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container ">
             <div class="row">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Екатерина Васкевич</a>
-                            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Главная</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Примеры работ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Обо мне</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Цены</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Контакты</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link nav-city" href="#map">
-                                            <p>На карте</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="tel:+7999999999">
-                                            <p>Позванить</p>
-                                        </a>
-                                    </li>
-                                </ul>
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo03" data-bs-toggle="offcanvas"
+                            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
+                            class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <span class="navbar-toggler-icon"></span>
+
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                    <br>
+                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Меню</h5>
+                                    <ul class="offcanvas_menu">
+                                        <li>Главная</li>
+                                        <li>Примеры работ</li>
+                                        <li>Обо мне</li>
+                                        <li>Цены</li>
+                                        <li>Контакты</li>
+                                    </ul>
+                                    <br>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="dropdown mt-3">
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <li><a class="dropdown-item" href="#">Действие</a></li>
+                                            <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                            <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                    </div>
+
+                        </button>
+                        <a class="navbar-brand" href="#">Екатерина Васкевич</a>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Главная</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Примеры работ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Обо мне</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Цены</a>
+                                </li>
+                                <li class="nav-item nav-item-last">
+                                    <a class="nav-link" href="#">Контакты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-city" href="#map">
+                                        <p>На карте</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link telephone" href="tel:+7999999999">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
             </div>
     </header>
 
     <section class="container">
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -125,6 +155,40 @@
         <br>
         <h2>Почему я:</h2>
         <br>
+        <button type="button" class="btn btn-primary modal-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z" />
+            </svg></button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Заказать обратный звонок</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Ваше
+                                    имя</label>
+                                <input minlength="3" type="text" name="name" class="form-control"
+                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Номер телефона</label>
+                                <input type="tel" name="phone" class="form-control" id="exampleInputPassword1"
+                                    minlength="11">
+                                <div id="emailHelp" class="form-text">Мы никогда никому не передадим ваш номер телефона
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="text-center">
             <div class="row justify-content-center">
@@ -141,7 +205,7 @@
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img src="/img/1.jpg" class="card-img-top" alt="...">
+                    <img src="/img/2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Большой опыт</h5>
                         <p class="card-text">Небольшой пример текста, который должен основываться на названии
@@ -152,7 +216,7 @@
 
 
                 <div class="card" style="width: 18rem;">
-                    <img src="/img/1.jpg" class="card-img-top" alt="...">
+                    <img src="/img/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Гарантия на услуги</h5>
                         <p class="card-text">Небольшой пример текста, который должен основываться на названии
@@ -185,13 +249,22 @@
             <div class="container text-center">
                 <div class="row justify-content-center">
                     <div class="col">
-                        Одна из трех колонок
+                        Полный детейлинг лица
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quasi laborum non sint
+                            maxime? Ducimus incidunt ab magnam dolorem nihil numquam ipsum delectus assumenda. Velit
+                            nisi nihil sint omnis vitae.</div>
                     </div>
                     <div class="col">
-                        Одна из трех колонок
+                        Устранение седены
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quasi laborum non sint
+                            maxime? Ducimus incidunt ab magnam dolorem nihil numquam ipsum delectus assumenda. Velit
+                            nisi nihil sint omnis vitae.</div>
                     </div>
                     <div class="col">
-                        Одна из трех колонок
+                        Ресницы как у барби
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quasi laborum non sint
+                            maxime? Ducimus incidunt ab magnam dolorem nihil numquam ipsum delectus assumenda. Velit
+                            nisi nihil sint omnis vitae.</div>
                     </div>
                 </div>
             </div>
@@ -199,12 +272,21 @@
                 <div class="row align-items-start">
                     <div class="col">
                         Одна из трех колонок
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quasi laborum non sint
+                            maxime? Ducimus incidunt ab magnam dolorem nihil numquam ipsum delectus assumenda. Velit
+                            nisi nihil sint omnis vitae.</div>
                     </div>
                     <div class="col">
                         Одна из трех колонок
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quasi laborum non sint
+                            maxime? Ducimus incidunt ab magnam dolorem nihil numquam ipsum delectus assumenda. Velit
+                            nisi nihil sint omnis vitae.</div>
                     </div>
                     <div class="col">
                         Одна из трех колонок
+                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quasi laborum non sint
+                            maxime? Ducimus incidunt ab magnam dolorem nihil numquam ipsum delectus assumenda. Velit
+                            nisi nihil sint omnis vitae.</div>
                     </div>
                 </div>
             </div>
@@ -234,26 +316,27 @@
 
     <footer id="footer">
         <div class="container text-center">
-            <a class="btn btn-block btn-social btn-instagram">
+            <a href="#" class="btn btn-block btn-social btn-instagram">
                 <span class="fa fa-instagram"></span> Instagram
             </a>
-            <a class="btn btn-block btn-social btn-vk">
+            <a href="#" class="btn btn-block btn-social btn-vk">
                 <span class="fa fa-vk"></span> VK
             </a>
-            <a class="btn btn-block btn-social btn-whatsapp">
+            <a href="#" class="btn btn-block btn-social btn-whatsapp">
                 <span class="fa fa-whatsapp"></span> WhatsApp
             </a>
-            <a class="btn btn-block btn-social btn-telegram">
+            <a href="#" class="btn btn-block btn-social btn-telegram">
                 <span class="fa fa-telegram"></span> Telegram
             </a>
             <div class="container">
                 <div class="footer-copyright text-center py-3">© 2023 Copyright:
-                    <a href="/"> VaskevichE.ru</a>
+                    <a href="#"> VaskevichE.ru</a>
                 </div>
             </div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
